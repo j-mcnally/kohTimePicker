@@ -1,0 +1,12 @@
+Usage
+======
+
+$("#textinput").kohTimePicker();
+
+*Requires jQuery
+
+Converts a normal text input field into 3 drop downs to allow users to select a time. 
+Stores MySQL compatible timestamp into a hidden field with the name of the original input.
+Built/Tested with Rails 3 and ActiveRecord, may work with other languages.
+
+Will load a MySQL time stamp into the drop downs as well if the text field is populated.
